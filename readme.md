@@ -1,17 +1,17 @@
 ## This is a package for time-series prediction and results visualization
-### Author : shenwanxiang
-### Email : shenwx13@tsinghua.edu.cn
-### version : 0.1
-### last update date : 2017/6/27
+#### Author : shenwanxiang
+#### version : 0.1
+#### last update date : 2017/6/27
 
-### Usage:
+#### Usage:
 ```python 
 import sys
 #and then add path: 
 sys.path.append(r"D:\...")
 ```
 
-* feature_reprocessing (module)[https://github.com/shenwanxiang/tsp/blob/master/swx_ts_prediction/feature_preprocessing.py]：
+#### API:
+* feature_reprocessing (module)：
   * a)	remove_low_variance_features(data_frame,var = 0.8)函数：去除方差较小特征，VarianceThreshold为0.8
   * b)	check_skew_log(df,alpha = 0.75)函数：将所有特征近似为正态分布，skewed阈值为0.75
   * c)	diff_shift_lag(df,diff_lag = 10,shift_lag = 2)函数：将时序滞后，差分，得到新的特征，diff_lag为差分最大阶数，shift_lag为滞后最大阶数
