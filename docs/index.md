@@ -1,6 +1,4 @@
-# Welcome to tsp Pages
-
-# **重庆市疾病预测项目**
+# **tsp疾病预测案例**
 # **——手足口病发病人数的预测报告与其他城市套用**
 
 
@@ -8,8 +6,8 @@
 
 **时间：2017年6月-2017年7月**
 
-
-
+[package_usage example: SARIMA model](https://shenwanxiang.github.io/tsp/SARIMA_eample.html)
+[package_usage example: combination model](combination_model.html)
 
 
 # **目录**
